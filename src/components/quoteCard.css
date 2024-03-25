@@ -1,0 +1,16 @@
+.container {
+    background-color: #1F2937;
+    color: white;
+    /* padding-top: 2rem; */
+    padding: 1.5rem;
+    margin: 3.5rem;
+    text-align: center;
+    border-radius: 10px;
+    /* gap: 50rem; */
+    font-size: 1.5rem;
+    /* font-weight: 600; */
+}
+
+.author {
+    font-size: 0.8rem;
+}

@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(17, 24, 39);
+    color: #FFF;
+    align-items: center;
+    padding: 1.2rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.same-style {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    /* text-decoration: none; */
+    color: #FFF;
+    /* padding: 0 0.8rem; */
+    gap: 1.5rem;
+}
+
+#btn {
+    border-radius: 5px;
+    padding: .4rem .7rem;
+    border: none;
+    background-color: rgb(37, 99, 235);
+    color: #FFF;
+    font-size: medium;
+}
+
+.different-style {
+    color: #FFF;
+    text-decoration: none;
+}
