@@ -13,10 +13,9 @@ export function Navbar() {
 
             <div className="same-style" >
                 <p ><NavLink to='/' className='different-style' >Home</NavLink></p>
-
                 <p ><NavLink to='/quotes'  className='different-style' >Quote</NavLink></p>
-                <p ><NavLink  className='different-style' to='/food' > Food</NavLink></p>
                 <p ><NavLink  className='different-style' to='/restaurant'>Restaurants</NavLink></p>
+                <p ><NavLink  className='different-style' to='/food' > Food</NavLink></p>
                 <p ><NavLink  className='different-style' >Contact</NavLink></p>
             </div>
 

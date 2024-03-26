@@ -4,8 +4,11 @@ import QuotePage  from './components/Quote_Page';
 // import {Home} from './home/home'
 import { HomeScreen } from './home/HomeScreen';
 import { BrowserRouter, Routes, Route, createBrowserRouter, RouterProvider } from "react-router-dom";   
-import { Home } from './home/home';
+// import { Home } from './home/home';
 import { QuoteScreen } from './components/quoteScreen';
+import Restaurant from './restaurants/Restaurant';
+// import Wrap from './restaurants/Wrap';
+
 
 function App() {
 
@@ -21,6 +24,10 @@ function App() {
         {
           path: 'quotes',
           element: <QuoteScreen/>
+        },
+        {
+          path: 'restaurant',
+          element: <Restaurant />
         }
       ]
     }
