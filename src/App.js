@@ -7,6 +7,8 @@ import { BrowserRouter, Routes, Route, createBrowserRouter, RouterProvider } fro
 // import { Home } from './home/home';
 import { QuoteScreen } from './components/quoteScreen';
 import Restaurant from './restaurants/Restaurant';
+import Food from './Food';
+import Contact from './Contact';
 // import Wrap from './restaurants/Wrap';
 
 
@@ -28,6 +30,14 @@ function App() {
         {
           path: 'restaurant',
           element: <Restaurant />
+        },
+        {
+          path: 'food',
+          element: <Food />
+        },
+        {
+          path: 'contact',
+          element: <Contact />
         }
       ]
     }

@@ -111,7 +111,7 @@ const Restaurant = () => {
             );
           })}
         </div>
-  
+        
       </div>
     );
 }
