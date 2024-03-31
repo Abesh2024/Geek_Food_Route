@@ -7,6 +7,7 @@ import Restaurant from './restaurants/Restaurant';
 import Food from './Food';
 import Contact from './Contact';
 import Signup from './authentication/Signup';
+import Signin from './authentication/Signin';
 
 
 function App() {
@@ -14,12 +15,17 @@ function App() {
   const allPaths = createBrowserRouter([
     {
       path: '/',
+      element: <Signup/>
+    },
+    {
+      path: '/signin',
+      element: <Signin/>
+    },
+    
+    {
+      path: '/',
       element: <Layout/>,
       children:  [
-        {
-          path: '/',
-          element: <Signup/>
-        },
         {
           path: '/home',
           element: <HomeScreen/>
