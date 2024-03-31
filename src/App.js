@@ -1,15 +1,12 @@
 
 import Layout from './Layout';
-import QuotePage  from './components/Quote_Page';
-// import {Home} from './home/home'
 import { HomeScreen } from './home/HomeScreen';
 import { BrowserRouter, Routes, Route, createBrowserRouter, RouterProvider } from "react-router-dom";   
-// import { Home } from './home/home';
 import { QuoteScreen } from './components/quoteScreen';
 import Restaurant from './restaurants/Restaurant';
 import Food from './Food';
 import Contact from './Contact';
-// import Wrap from './restaurants/Wrap';
+import Signup from './authentication/Signup';
 
 
 function App() {
@@ -21,6 +18,10 @@ function App() {
       children:  [
         {
           path: '/',
+          element: <Signup/>
+        },
+        {
+          path: '/home',
           element: <HomeScreen/>
         },
         {
